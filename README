@@ -1,0 +1,23 @@
+Sample TypeScript with AMD application.
+
+First you need to install npm, grunt and dependencies:
+
+    npm install
+
+Then you can compile TypeScript files:
+
+    grunt typescript
+
+When you want to build the concatenated file execute:
+
+    grunt build
+
+And you will get one file that contains everything: dist/scripts.js.
+
+Now you can replace the script include in index.html
+
+    <script src="scripts/lib/require.js" data-main="scripts/main"></script>
+
+to use the minified file:
+
+    <script src="dist/scripts.js" data-main="scripts/main"></script>

@@ -1,0 +1,6 @@
+scripts directory contains TypeScript files.
+
+Pure JavaScript libraries should be inside scripts/lib file.
+
+The .gitignore is configured to ignore all JavaScript files in all subdirectories
+of this directory except the "lib".

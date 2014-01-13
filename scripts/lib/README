@@ -1,0 +1,4 @@
+scripts/lib directory contains pure JavaScript files.
+
+If the file is to be used from TypeScript file it should contain a definition
+file (.d.ts). See pure.d.ts and example.ts.
