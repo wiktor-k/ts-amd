@@ -26,7 +26,7 @@ module.exports = (grunt) ->
                     name: "main"
                     out: "dist/scripts.js"
                     preserveLicenseComments: no
-                    include: [ "lib/require" ]
+                    include: [ "lib/almond" ]
                     insertRequire: ['main']
                     optimize: "uglify2"
                     logLevel: 3
